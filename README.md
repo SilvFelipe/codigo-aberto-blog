@@ -79,37 +79,37 @@ npm run lint         # Executa linter
 
 ### Estrutura de Pastas
 
-\`\`\`
+\`\`\`  
 ├── app/                          # App Router (Next.js 15)  
 │   ├── artigos/                  # Páginas de artigos  
-│   │   ├── [id]/page.tsx        # Página dinâmica de artigo individual
-│   │   └── page.tsx             # Lista de todos os artigos
-│   ├── categoria/               # Páginas de categorias
-│   │   └── [slug]/page.tsx      # Página dinâmica por categoria
-│   ├── globals.css              # Estilos globais e tokens de design
-│   ├── layout.tsx               # Layout raiz da aplicação
-│   └── page.tsx                 # Página inicial
-├── components/                   # Componentes reutilizáveis
-│   ├── articles/                # Componentes de artigos individuais
-│   │   ├── react-18-article.tsx
-│   │   ├── machine-learning-article.tsx
-│   │   └── ...                  # Outros artigos
-│   ├── ui/                      # Componentes base (shadcn/ui)
-│   ├── categories.tsx           # Grid de categorias
-│   ├── featured-posts.tsx       # Posts em destaque
-│   ├── footer.tsx               # Rodapé
-│   ├── header.tsx               # Cabeçalho com navegação
-│   ├── hero.tsx                 # Seção hero da homepage
-│   ├── recent-posts.tsx         # Posts recentes
-│   └── search-dropdown.tsx      # Busca com dropdown
-├── lib/                         # Utilitários e dados
-│   ├── articles-data.ts         # Dados centralizados dos artigos
-│   └── utils.ts                 # Funções utilitárias
-├── public/                      # Arquivos estáticos
-│   ├── ebooks/                  # PDFs para download
-│   └── images/                  # Imagens e logo
-└── hooks/                       # Custom hooks
-    └── use-mobile.tsx           # Hook para detecção mobile
+│   │   ├── [id]/page.tsx        # Página dinâmica de artigo individual  
+│   │   └── page.tsx             # Lista de todos os artigos  
+│   ├── categoria/               # Páginas de categorias  
+│   │   └── [slug]/page.tsx      # Página dinâmica por categoria  
+│   ├── globals.css              # Estilos globais e tokens de design  
+│   ├── layout.tsx               # Layout raiz da aplicação  
+│   └── page.tsx                 # Página inicial  
+├── components/                   # Componentes reutilizáveis  
+│   ├── articles/                # Componentes de artigos individuais  
+│   │   ├── react-18-article.tsx  
+│   │   ├── machine-learning-article.tsx  
+│   │   └── ...                  # Outros artigos  
+│   ├── ui/                      # Componentes base (shadcn/ui)  
+│   ├── categories.tsx           # Grid de categorias  
+│   ├── featured-posts.tsx       # Posts em destaque  
+│   ├── footer.tsx               # Rodapé  
+│   ├── header.tsx               # Cabeçalho com navegação  
+│   ├── hero.tsx                 # Seção hero da homepage  
+│   ├── recent-posts.tsx         # Posts recentes  
+│   └── search-dropdown.tsx      # Busca com dropdown  
+├── lib/                         # Utilitários e dados  
+│   ├── articles-data.ts         # Dados centralizados dos artigos  
+│   └── utils.ts                 # Funções utilitárias  
+├── public/                      # Arquivos estáticos  
+│   ├── ebooks/                  # PDFs para download  
+│   └── images/                  # Imagens e logo  
+└── hooks/                       # Custom hooks  
+    └── use-mobile.tsx           # Hook para detecção mobile  
 \`\`\`
 
 ### Padrões Arquiteturais
