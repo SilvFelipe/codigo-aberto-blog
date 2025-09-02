@@ -80,8 +80,8 @@ npm run lint         # Executa linter
 ### Estrutura de Pastas
 
 \`\`\`
-├── app/                          # App Router (Next.js 15)
-│   ├── artigos/                  # Páginas de artigos
+├── app/                          # App Router (Next.js 15)  
+│   ├── artigos/                  # Páginas de artigos  
 │   │   ├── [id]/page.tsx        # Página dinâmica de artigo individual
 │   │   └── page.tsx             # Lista de todos os artigos
 │   ├── categoria/               # Páginas de categorias
