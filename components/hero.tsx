@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Code, Cpu, Smartphone, Globe } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export function Hero() {
