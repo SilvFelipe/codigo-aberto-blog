@@ -20,7 +20,7 @@ export function Header() {
           <div className="flex items-center justify-center h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
-                <img src="/logo.png" alt="Código Aberto Logo" className="w-full h-full object-cover" />
+                <img src="/images/logo.png" alt="Código Aberto Logo" className="w-full h-full object-cover" />
               </div>
               <h1 className="text-lg sm:text-xl font-bold text-foreground">Código Aberto</h1>
             </Link>
@@ -37,7 +37,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
-              <img src="/logo.png" alt="Código Aberto Logo" className="w-full h-full object-cover" />
+              <img src="/images/logo.png" alt="Código Aberto Logo" className="w-full h-full object-cover" />
             </div>
             <h1 className="text-lg sm:text-xl font-bold text-foreground">Código Aberto</h1>
           </Link>
