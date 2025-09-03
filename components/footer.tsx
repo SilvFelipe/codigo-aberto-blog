@@ -8,8 +8,8 @@ export function Footer() {
           {/* Logo e Descrição */}
           <div className="md:w-2/3">
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <Code className="text-primary-foreground w-5 h-5" />
+              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
+                <img src="/images/logo.png" alt="Código Aberto Logo" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-foreground">Código Aberto</h3>
             </div>
@@ -32,70 +32,6 @@ export function Footer() {
               </a>
             </div>
           </div>
-
-          {/* Links Rápidos */}
-          {/* <div className="md:w-1/3">
-            <h4 className="font-semibold text-foreground mb-4">Links Rápidos</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Início
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Todos os Artigos
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Categorias
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  eBooks Gratuitos
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Sobre
-                </a>
-              </li>
-            </ul>
-          </div> */}
-
-          {/* Categorias */}
-          {/* <div>
-            <h4 className="font-semibold text-foreground mb-4">Categorias</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Programação
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Inteligência Artificial
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Desenvolvimento Web
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Mobile
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  DevOps
-                </a>
-              </li>
-            </ul>
-          </div> */}
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center">
