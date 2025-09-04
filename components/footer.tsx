@@ -1,4 +1,4 @@
-import { Code, Github, Twitter, Linkedin, Mail } from "lucide-react"
+import { Github, Instagram  } from "lucide-react"
 
 export function Footer() {
   return (
@@ -18,17 +18,11 @@ export function Footer() {
               práticos e ebooks gratuitos para ajudar desenvolvedores a evoluir em suas carreiras.
             </p>
             <div className="flex justify-center space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://github.com/SilvFelipe/codigo-aberto-blog" target="blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Mail className="w-5 h-5" />
+              <a href="https://www.instagram.com/codigoaberto.oficial/" target="blank" className="text-muted-foreground hover:text-primary transition-colors">
+                <Instagram className="w-5 h-5" />
               </a>
             </div>
           </div>
