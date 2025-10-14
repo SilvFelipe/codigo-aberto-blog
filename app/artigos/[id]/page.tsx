@@ -4,12 +4,13 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getArticleById } from "@/lib/articles-data"
 import { Header } from "@/components/header"
+
 import { SecurityArticle } from "@/components/articles/security-article"
-
-
+import { ArtificialIntelligenceArticle } from "@/components/articles/artificial-intelligence-article"
 
 const articleComponents = {
-  "1": SecurityArticle
+  "1": SecurityArticle,
+  "2": ArtificialIntelligenceArticle,
 }
 
 export default function ArticlePage({ params }: { params: { id: string } }) {

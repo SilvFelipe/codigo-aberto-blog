@@ -25,6 +25,19 @@ export const articlesData: Article[] = [
     featured: true,
     recent: true
   },
+  {
+    id: "2",
+    title: "Desmistificando a Inteligência Artificial",
+    excerpt:
+      "Entenda como a IA funciona, como foi idealizada e como está presente no nosso dia a dia.",
+    image: "/images/ai.png",
+    category: "IA & ML",
+    readTime: "10 min",
+    publishDate: "2025-10-14",
+    downloadUrl: "/ebooks/artificial_intelligence.pdf",
+    featured: true,
+    recent: true
+  },
 ]
 
 export function getArticleById(id: string): Article | undefined {
