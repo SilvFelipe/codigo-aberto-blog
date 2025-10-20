@@ -1,16 +1,18 @@
 import { Button } from "@/components/ui/button"
-import { Calendar, Clock, Download, ArrowLeft, Share2 } from "lucide-react"
+import { Calendar, Clock, Download, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getArticleById } from "@/lib/articles-data"
 import { Header } from "@/components/header"
 
 import { SecurityArticle } from "@/components/articles/security-article"
+import { MachineLearningArticle } from "@/components/articles/machine-learning"
 import { ArtificialIntelligenceArticle } from "@/components/articles/artificial-intelligence-article"
 
 const articleComponents = {
   "1": SecurityArticle,
   "2": ArtificialIntelligenceArticle,
+  "3": MachineLearningArticle,
 }
 
 export default function ArticlePage({ params }: { params: { id: string } }) {
