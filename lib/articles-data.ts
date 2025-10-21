@@ -38,6 +38,19 @@ export const articlesData: Article[] = [
     featured: true,
     recent: true
   },
+  {
+    id: "3",
+    title: "Machine Learning para Iniciantes",
+    excerpt:
+      "Entenda como as inteligências artificiais aprendem.",
+    image: "/images/machine_learning.png",
+    category: "IA & ML",
+    readTime: "15 min",
+    publishDate: "2025-10-20",
+    downloadUrl: "/ebooks/machine_learning.pdf",
+    featured: true,
+    recent: true
+  }
 ]
 
 export function getArticleById(id: string): Article | undefined {
