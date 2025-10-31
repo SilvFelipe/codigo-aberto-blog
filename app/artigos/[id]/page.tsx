@@ -8,11 +8,13 @@ import { Header } from "@/components/header"
 import { SecurityArticle } from "@/components/articles/security-article"
 import { MachineLearningArticle } from "@/components/articles/machine-learning"
 import { ArtificialIntelligenceArticle } from "@/components/articles/artificial-intelligence-article"
+import { InternetArticle } from "@/components/articles/internet-article"
 
 const articleComponents = {
   "1": SecurityArticle,
   "2": ArtificialIntelligenceArticle,
   "3": MachineLearningArticle,
+  "4": InternetArticle,
 }
 
 export default function ArticlePage({ params }: { params: { id: string } }) {
