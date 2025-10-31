@@ -1,18 +1,20 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { Code, Cpu, Smartphone, Database, TestTube, Layers, Shield } from "lucide-react"
+import { Code, Cpu, Shield, Globe } from "lucide-react"
 import { getCategories } from "@/lib/articles-data"
 import { useRouter } from "next/navigation"
 
 const categoryIcons: Record<string, any> = {
   Security: Shield,
   "IA & ML": Cpu,
+  Internet: Globe,
 }
 
 const categoryColors: Record<string, string> = {
   Security: "text-blue-500",
   "IA & ML": "text-purple-500",
+  Internet: "text-orange-500",
 }
 
 export function Categories() {
