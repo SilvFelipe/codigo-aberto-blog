@@ -23,7 +23,7 @@ export const articlesData: Article[] = [
     publishDate: "2025-09-05",
     downloadUrl: "/ebooks/cybersecurity.pdf",
     featured: true,
-    recent: true
+    recent: false
   },
   {
     id: "2",
@@ -38,6 +38,32 @@ export const articlesData: Article[] = [
     featured: true,
     recent: true
   },
+  {
+    id: "3",
+    title: "Machine Learning para Iniciantes",
+    excerpt:
+      "Entenda como as inteligências artificiais aprendem.",
+    image: "/images/machine_learning.png",
+    category: "IA & ML",
+    readTime: "15 min",
+    publishDate: "2025-10-20",
+    downloadUrl: "/ebooks/machine_learning.pdf",
+    featured: true,
+    recent: true
+  },
+  {
+    id: "4",
+    title: "Desvendando o Mundo Conectado",
+    excerpt:
+      "Entenda como funciona a rede de computadores mais famosa do mundo, a Internet.",
+    image: "/images/internet.png",
+    category: "Internet",
+    readTime: "10 min",
+    publishDate: "2025-10-31",
+    downloadUrl: "/ebooks/internet.pdf",
+    featured: true,
+    recent: true
+  }
 ]
 
 export function getArticleById(id: string): Article | undefined {

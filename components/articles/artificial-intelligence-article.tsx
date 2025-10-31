@@ -91,9 +91,6 @@ export function ArtificialIntelligenceArticle() {
           <li>- Acessibilidade e Inclusão</li>
           <li>- Resolução de Problemas Complexos</li>
         </ul>
-
-        {/* Espaço para imagem */}
-        <div className="my-8 h-4"></div>
       </div>
     </div>
   )
